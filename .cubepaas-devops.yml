@@ -10,5 +10,5 @@ stages:
       tag: typecho:v1
       pushRemote: true
       registry: mirror.cubepaas.com/github-clz
-timeout: 60
+timeout: 200
 notification: {}
