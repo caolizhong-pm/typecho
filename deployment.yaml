@@ -28,7 +28,7 @@ spec:
         app: php-demo
     spec:
       imagePullSecrets:
-      - name: local-registry
+      - name: githubclz
       containers:
       - name: php-demo
         image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
